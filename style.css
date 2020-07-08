@@ -1,3 +1,6 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+}
 .carousel-section, .categories-section, .shoes-section, .backpack-section, .subscription-section{
     margin-bottom: 60px;
 }
@@ -76,4 +79,5 @@
 footer{
     text-align: center;
     padding: 10px 0px;
+    font-weight: 700;
 }
