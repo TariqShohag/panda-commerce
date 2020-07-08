@@ -1,7 +1,7 @@
 body{
     font-family: 'Quicksand', sans-serif;
 }
-.carousel-section, .categories-section, .shoes-section, .backpack-section, .subscription-section{
+.carousel-section, .categories-section, .shoes-section, .backpack-section{
     margin-bottom: 60px;
 }
 .orange-bg{
@@ -84,8 +84,14 @@ body{
 #subscribe p{
     color: gray;
 }
+.subscription-section{
+    margin-bottom: 10px;
+}
 footer{
-    text-align: center;
+    color: grey;
+    background-color: rgb(241, 241, 241);
     padding: 10px 0px;
-    font-weight: 700;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
 }
