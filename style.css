@@ -84,7 +84,7 @@ body{
 #subscribe p{
     color: gray;
 }
-.subscription-section{
+.subscription-section, .nav-bar{
     margin-bottom: 10px;
 }
 footer{
