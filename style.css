@@ -3,7 +3,7 @@
 }
 .orange-bg{
     background-color: #fceae8;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 .carousel-item{
     padding: 40px 40px;
@@ -18,4 +18,23 @@
     border-radius: 8px;
     padding: 9px 25px;
     cursor: pointer;
+}
+.cat1, .cat2, .cat3{
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+.cat1{
+    background-image: linear-gradient(to right, rgb(207, 149, 24) 0%, rgb(255, 196, 87) 100%);
+}
+.cat2{
+    background-image: linear-gradient(to right, rgb(170, 0, 119) 0%, rgb(255, 71, 209) 100%);
+}
+.cat3{
+    background-image: linear-gradient(to right, rgb(33, 18, 247) 0%, rgb(66, 91, 231) 100%);
+}
+.categories h1{
+    color: white;
+}
+.categories img{
+    width: 120px;
 }
