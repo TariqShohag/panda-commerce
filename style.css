@@ -1,5 +1,5 @@
-.container{
-    margin-bottom: 70px;
+.carousel-section, .categories-section, .shoes-section, .backpack-section, .subscription-section{
+    margin-bottom: 60px;
 }
 .orange-bg{
     background-color: #fceae8;
@@ -37,4 +37,43 @@
 }
 .categories img{
     width: 120px;
+}
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgb(228, 228, 228);
+}
+.card-price-color{
+    color: #ff136f;
+}
+.card-text{
+    color: gray;
+}
+.half-width{
+    width: 50%;
+    float: left;
+}
+.title-bg-shoes{
+    padding: 5px 10px;
+    border-left: 7px solid;
+    border-bottom: 1px solid #000;
+    border-image: linear-gradient(to bottom, blue, rgb(0, 195, 255));
+    border-image-slice: 1;
+}
+.title-bg-backpack{
+    padding: 5px 10px;
+    border-left: 7px solid;
+    border-bottom: 1px solid #000;
+    border-image: linear-gradient(to bottom, #ff136f, #ff83b3);
+    border-image-slice: 1;
+}
+#subscribe{
+    height: 300px;
+}
+#subscribe p{
+    color: gray;
+}
+footer{
+    text-align: center;
+    padding: 10px 0px;
 }
